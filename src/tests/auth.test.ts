@@ -22,10 +22,10 @@ describe("getAPIKey", () => {
     expect(getAPIKey(headers)).toBe("my-secret-key");
   });
 
-  /* it("handles extra spaces gracefully", () => {
+  it("handles extra spaces gracefully", () => {
     const headers = { authorization: "ApiKey    spaced-key" };
     expect(getAPIKey(headers)).toBe("   spaced-key");
-  }); */
+  });
 
   it("is case-sensitive and should return null if prefix is not exactly 'ApiKey'", () => {
     const headers = { authorization: "apikey wrong-case" };
