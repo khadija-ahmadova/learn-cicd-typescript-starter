@@ -24,6 +24,7 @@
     "drizzle-kit": "^0.28.1",
     "eslint": "^9.35.0",
     "globals": "^15.15.0",
+    "jiti": "^2.5.1",
     "prettier": "3.6.2",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3",
